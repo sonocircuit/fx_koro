@@ -28,4 +28,4 @@ function FxKoro:add_params()
     params:set_action("fx_koro_spread", function(x) set_param("spread", x) end)
 end
 
-md.hook.register("script_post_init", "fx pEte mod post init", function() FxKoro:add_params() end)
+md.hook.register("script_post_init", "fx koro mod post init", function() FxKoro:add_params() end)
